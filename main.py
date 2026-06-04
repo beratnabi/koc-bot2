@@ -4,7 +4,8 @@ import random
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "8910485378:AAFwtDWymna3uXi1q7s4_E6ZJT198dXAFzk"
+import os
+TOKEN = os.getenv("TOKEN")
 
 DATA_FILE = "data.json"
 
