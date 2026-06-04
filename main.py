@@ -4,7 +4,7 @@ import random
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "BURAYA_BOT_TOKEN"
+TOKEN = "8910485378:AAFwtDWymna3uXi1q7s4_E6ZJT198dXAFzk"
 
 DATA_FILE = "data.json"
 
